@@ -36,6 +36,37 @@ Let's walk through [Github's fork a repo page](https://help.github.com/articles/
 
 ## You Do 
 
+We don't like how all the employee information is in the staff.csv files. Really, this file is a mapping between people and thier roles in a specific department.
+
+We may have employees working in different departments and if so the employee information will be duplicated. This is a problem. We want to keep information in one place if possible. Otherwise the info or data that should be same may become different in across files.
+
+For example, Joy Gillis is a manager in the Electrical Department but she sometime works as an associate in the Tools department. 
+
+The record for her in Electrical is:
+Joy Gillis,978-238-9894,joyg@example.com,manager
+
+The record for her in Tools is: 
+Joy A Gillis,617-987-9894,joygillis@gmail.com
+
+The info for Joy is **inconsitent** because it's difficult to manage info in many places. It a big cause of errors.
+
+
+* Create a file name employes with their info and a unique id, employee id for them.
+
+employees.csv
+Name, Phone, Email, ID
+
+* Refer to employees by their ID's in the staff.csv files.
+
+**Remember to create a branch for these changes/commits**
+
+## You Do
+
+Create a products CSV file that will hold product info.  Each product will have an ID.
+
+Refer to the product ONLY by ID in the inventory files.
+
+
 ## References
 * [Git Commands](command-reference.md)
 * [Github's fork page](https://help.github.com/articles/fork-a-repo/)
