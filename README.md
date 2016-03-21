@@ -1,4 +1,4 @@
-![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
 ## Objectives
 - Manage change in a project.
@@ -10,9 +10,9 @@
 
 
 ## Prerequisites
-- Complete [Git Basics](https://github.com/ga-wdi-boston/git-basics)
+- [Git Basics](https://github.com/ga-wdi-boston/git-basics)
 
-## Overview 
+## Overview
 
 Continuing in our project, [Git Basics](https://github.com/ga-wdi-boston/git-basics) we are going to use Github to manage a project.
 
@@ -34,18 +34,18 @@ Given a project repository in an account owned by the project team we will creat
 
 Let's walk through [Github's fork a repo page](https://help.github.com/articles/fork-a-repo/)
 
-## You Do 
+## You Do
 
 We don't like how all the employee information is in the staff.csv files. Really, this file is a mapping between people and thier roles in a specific department.
 
 We may have employees working in different departments and if so the employee information will be duplicated. This is a problem. We want to keep information in one place if possible. Otherwise the info or data that should be same may become different in across files.
 
-For example, Joy Gillis is a manager in the Electrical Department but she sometime works as an associate in the Tools department. 
+For example, Joy Gillis is a manager in the Electrical Department but she sometime works as an associate in the Tools department.
 
 The record for her in Electrical is:
 Joy Gillis,978-238-9894,joyg@example.com,manager
 
-The record for her in Tools is: 
+The record for her in Tools is:
 Joy A Gillis,617-987-9894,joygillis@gmail.com
 
 The info for Joy is **inconsitent** because it's difficult to manage info in many places. It a big cause of errors.
@@ -68,7 +68,10 @@ Refer to the product ONLY by ID in the inventory files.
 
 
 ## References
-* [Git Commands](command-reference.md)
-* [Github's fork page](https://help.github.com/articles/fork-a-repo/)
+- [Git Commands](command-reference.md)
+- [Github's fork page](https://help.github.com/articles/fork-a-repo/)
 
+## [License](LICENSE)
 
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
