@@ -83,12 +83,18 @@ Working with the same partner from before one of you will be the primary
 repository, the other will be a contributor.
 
 1.The contributor will add the primary repository as a remote.
+
 2.The primary will push their latest story to the master branch.
+
 3.The contributor will pull the master branch from the primary.
+
 4.The contributor will add to the story and push their changes to their own
 repository and create a pull request to the primary.
+
 5.The primary will accept the pull request and pull the changes to their local.
+
 6.The primary will add to the story and push the changes to their master branch.
+
 7.The primary and the contributor will go back and forth adding to the story.
 
 ## References
