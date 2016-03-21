@@ -14,57 +14,47 @@
 
 ## Overview
 
-Continuing in our project, [Git Basics](https://github.com/ga-wdi-boston/git-basics) we are going to use Github to manage a project.
+Continuing with what we started [Git Basics](https://github.com/ga-wdi-boston/git-basics) we are going to use Github
+to manage our project.
 
-Each person that is working in project will be working on their own computer. They will have a local copy of the project and will be using Git to manage change.
-The challenge is to be able to manage change across all the local copies of a project distributed over multiple computers!
+## Demo: Linking with GitHub
 
-In order to do this we will create a repository on github that will be the definitive version of the project. This "repo" will live in a github account owned by the company or project team. This is the *project owner's repo*.
+So we have a local repository, watch as I create a GitHub repository. Why
+GitHub? So we can backup our code online. It also provides us with a useful
+graphical interface and useful collaboration features.
 
-And each person/developer that would like to contribute their changes to the project will also have a github account. As we'll see we **fork** or copy the repo from the project owner's github account into our github account.
+Now create your own GitHub repository.
 
-DRAW PICTURE HERE.
+## Lab: More Pushing
 
-
-## Forking a Repository.
-
-Given a project repository in an account owned by the project team we will create create a copy or **fork the repo**.
-
-## We Do
-
-Let's walk through [Github's fork a repo page](https://help.github.com/articles/fork-a-repo/)
-
-## You Do
-
-We don't like how all the employee information is in the staff.csv files. Really, this file is a mapping between people and thier roles in a specific department.
-
-We may have employees working in different departments and if so the employee information will be duplicated. This is a problem. We want to keep information in one place if possible. Otherwise the info or data that should be same may become different in across files.
-
-For example, Joy Gillis is a manager in the Electrical Department but she sometime works as an associate in the Tools department.
-
-The record for her in Electrical is:
-Joy Gillis,978-238-9894,joyg@example.com,manager
-
-The record for her in Tools is:
-Joy A Gillis,617-987-9894,joygillis@gmail.com
-
-The info for Joy is **inconsitent** because it's difficult to manage info in many places. It a big cause of errors.
+The last time we saw Ned Stark we had just written his fate.  Below his story
+write the beggining of another character's story.  For instance:
 
 
-* Create a file name employes with their info and a unique id, employee id for them.
+> Joffrey Baratheon was the one to do Ned in, but his story was only about to
+> being, and let me assure you he will ___DEFINITELY NOT DIE!___
 
-employees.csv
-Name, Phone, Email, ID
 
-* Refer to employees by their ID's in the staff.csv files.
+## Demo: Adding to Your Story
 
-**Remember to create a branch for these changes/commits**
+Watch as I `fork` and `clone` one of your repos and make an addition by
+creating a `pull request`.
 
-## You Do
+## Lab: Adding to Other's Stories
 
-Create a products CSV file that will hold product info.  Each product will have an ID.
+Working with a partner follow my example and take turns adding to one another's
+stories. Accept each other's pull requests.  After you've each gone once stop.
 
-Refer to the product ONLY by ID in the inventory files.
+## Pulling: Updating Your Local
+
+Each of you should now have updated code on GitHub, but your local Git repo
+will be behind.  We need to get the latest code off of GitHub.  We can do this
+by pulling the changes that we merged.  The command to do this is:
+
+`git pull origin master`
+
+This get the latest copy of our code off of the master branch of our original
+repository.
 
 
 ## References
