@@ -4,17 +4,16 @@
 
 ## Objectives
 
--  Manage change in a project.
--  Collaborate over time and space.
--  Fork a repository.
--  Clone a repository
--  Synchronize repositories locally.
--  Synchronize repositories remotely.
-
+-   Manage change in a project.
+-   Collaborate over time and space.
+-   Fork a repository.
+-   Clone a repository
+-   Synchronize repositories locally.
+-   Synchronize repositories remotely.
 
 ## Prerequisites
 
-- [Git Basics](https://github.com/ga-wdi-boston/git-basics)
+-   [Git Basics](https://github.com/ga-wdi-boston/git-basics)
 
 ## Overview
 
@@ -33,7 +32,6 @@ Now create your own GitHub repository and `push` your master branch.
 
 The last time we saw Ned Stark we had just written his fate.  Below his story
 write the beggining of another character's story.  For instance:
-
 
 > Joffrey Baratheon was the one to do Ned in, but his story was only about to
 > being, and let me assure you he will ___DEFINITELY NOT DIE!___
@@ -82,25 +80,38 @@ called upstream.  It's just as easy to pull from it.
 Working with the same partner from before one of you will be the primary
 repository, the other will be a contributor.
 
-1.The contributor will add the primary repository as a remote.
+1.  The contributor will add the primary repository as a remote.
 
-2.The primary will push their latest story to the master branch.
+2.  The primary will push their latest story to the master branch.
 
-3.The contributor will pull the master branch from the primary.
+3.  The contributor will pull the master branch from the primary.
 
-4.The contributor will add to the story and push their changes to their own
+4.  The contributor will add to the story and push their changes to their own
 repository and create a pull request to the primary.
 
-5.The primary will accept the pull request and pull the changes to their local.
+5.  The primary will accept the pull request and pull the changes to their
+local.
 
-6.The primary will add to the story and push the changes to their master branch.
+6.  The primary will add to the story and push the changes to their master
+branch.
 
 7.The primary and the contributor will go back and forth adding to the story.
 
+## Editing on GitHub
+
+Hey! See that little pencil button on the top of a page on github!? That looks
+to change text and will help us, right?!
+[![Edit Pencil](http://i.imgur.com/Drt2g9u.png)
+Wrong! DON'T EVER USE THAT! Regardless of how small changes are you typically
+never want to edit ON GitHub. You always want to make changes locally and push
+ them.
+The reason we never want to do that is if you edit in the cloud, our local repo
+and GitHub repo become out of sync and it breaks convention.
+
 ## References
 
-- [Git Commands](command-reference.md)
-- [Github's fork page](https://help.github.com/articles/fork-a-repo/)
+-   [Git Commands](command-reference.md)
+-   [Github's fork page](https://help.github.com/articles/fork-a-repo/)
 
 ## [License](LICENSE)
 
